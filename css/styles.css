@@ -58,6 +58,7 @@ html {
 }
 
 /* Team Cards */
+
 .team-card {
     transition: all 0.3s ease-in-out;
     cursor: pointer;
@@ -70,6 +71,10 @@ html {
 
 .team-card img {
     transition: all 0.3s ease-in-out;
+    width: 100%; /* Já deve ter isso */
+    height: 100%; /* Garante que a imagem preencha a altura do seu contêiner */
+    object-fit: cover; /* Permite que a imagem preencha o espaço sem distorcer, cortando se necessário */
+    aspect-ratio: 1 / 1; /* Define a proporção do elemento da imagem para ser quadrada */
 }
 
 .team-card:hover img {
