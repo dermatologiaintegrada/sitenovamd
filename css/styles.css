@@ -8,6 +8,11 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Team Cards - Image Height Customization */
+.team-card-image-custom-height {
+    height: 390px;
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
