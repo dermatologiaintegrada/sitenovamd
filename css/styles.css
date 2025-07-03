@@ -8,6 +8,12 @@ html {
     scroll-behavior: smooth;
 }
 
+/* CORREÇÃO CRÍTICA PARA LAYOUT EM CELULAR */
+html, body {
+    overflow-x: hidden;
+    width: 100%; /* Garante que o html/body ocupe 100% da largura disponível */
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
