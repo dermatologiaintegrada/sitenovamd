@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MD Dermatologia Integrada - Clínica de dermatologia em Porto Alegre com equipe especializada em dermatologia clínica, estética e cirúrgica.">
+    <meta name="keywords" content="dermatologia, Porto Alegre, dermatologista, pele, estética, cirurgia dermatológica">
+    <meta name="author" content="MD Dermatologia Integrada">
+    <link rel="canonical" href="https://mddermatologia.com.br">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mddermatologia.com.br">
+    <meta property="og:title" content="MD Dermatologia Integrada - Cuidando da sua pele">
+    <meta property="og:description" content="Mais de 13 anos de experiência em dermatologia clínica, estética e cirúrgica em Porto Alegre">
+    <meta property="og:image" content="assets/img/hero-background.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mddermatologia.com.br">
+    <meta property="twitter:title" content="MD Dermatologia Integrada - Cuidando da sua pele">
+    <meta property="twitter:description" content="Mais de 13 anos de experiência em dermatologia clínica, estética e cirúrgica em Porto Alegre">
+    <meta property="twitter:image" content="assets/img/hero-background.jpg">
+
+    <title>MD Dermatologia Integrada - Cuidando da sua pele com excelência</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/logo-placeholder.jpeg">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        },
+                        medical: {
+                            blue: '#2563eb',
+                            green: '#059669',
+                            gray: '#64748b'
+                        }
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-gray-800 leading-relaxed">
+    <!-- Loading Screen -->
+    <div id="loading" class="fixed inset-0 bg-white z-50 flex items-center justify-center">
+        <div class="text-center">
+            <div class="animate-spin rounded-full h-32 w-32 border-b-2 border-primary-600 mx-auto"></div>
+            <p class="mt-4 text-gray-600">Carregando...</p>
+        </div>
+    </div>
+
+    <!-- Fixed Navigation Bar -->
+    <nav class="fixed top-0 left-0 right-0 bg-white shadow-lg z-40 transition-all duration-300" id="navbar">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="assets/img/logo-placeholder.jpeg" alt="MD Dermatologia Integrada" class="h-10 w-10 mr-3 rounded-full object-cover">
+                    <span class="text-xl font-bold text-primary-700">MD Dermatologia</span>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#main" class="nav-link text-gray-700 hover:text-primary-600 transition-colors duration-300">Início</a>
+                    <a href="#equipe" class="nav-link text-gray-700 hover:text-primary-600 transition-colors duration-300">Equipe</a>
+                    <a href="#clinica" class="nav-link text-gray-700 hover:text-primary-600 transition-colors duration-300">Clínica</a>
+                    <a href="#atuacao" class="nav-link text-gray-700 hover:text-primary-600 transition-colors duration-300">Áreas de Atuação</a>
+                </div>
+                
+
+                
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden text-gray-700" id="mobile-menu-btn">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div class="md:hidden hidden" id="mobile-menu">
+                <div class="py-4 space-y-4 border-t">
+                    <a href="#main" class="block text-gray-700 hover:text-primary-600 transition-colors duration-300">Início</a>
+                    <a href="#equipe" class="block text-gray-700 hover:text-primary-600 transition-colors duration-300">Equipe</a>
+                    <a href="#clinica" class="block text-gray-700 hover:text-primary-600 transition-colors duration-300">Clínica</a>
+                    <a href="#atuacao" class="block text-gray-700 hover:text-primary-600 transition-colors duration-300">Áreas de Atuação</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="main" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0">
+            <img src="assets/img/hero-background.jpg" alt="MD Dermatologia Integrada" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-primary-900 bg-opacity-70"></div>
+        </div>
+        
+        <!-- Hero Content -->
+        <div class="relative z-10 text-center text-white px-4 max-w-4xl mx-auto" data-aos="fade-up">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                Cuidando da sua pele com <span class="text-primary-300">excelência</span> e dedicação
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 leading-relaxed opacity-90">
+                Mais de 13 anos de experiência em dermatologia clínica, estética e cirúrgica em Porto Alegre
+            </p>
+            <div class="flex justify-center">
+                <a href="https://wa.me/5551991933393?text=Olá%20gostaria%20de%20agendar%20uma%20consulta" 
+                   class="bg-primary-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-primary-700 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center">
+                    <i class="fab fa-whatsapp mr-3 text-xl"></i>
+                    Agendar Consulta
+                </a>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
+            <i class="fas fa-chevron-down text-2xl"></i>
+        </div>
+    </section>
+
+    <!-- Contact Quick Info -->
+    <section class="bg-primary-50 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-phone text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Telefone</h3>
+                    <p class="text-gray-600">(51) 3377-3333</p>
+                </div>
+                <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="200">
+                    <a href="https://wa.me/5551991933393?text=Olá%20gostaria%20de%20agendar%20uma%20consulta" 
+                       class="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mb-4 hover:bg-primary-700 transition-all duration-300 transform hover:scale-110">
+                        <i class="fab fa-whatsapp text-2xl"></i>
+                    </a>
+                    <h3 class="text-lg font-semibold mb-2">WhatsApp</h3>
+                    <p class="text-gray-600">(51) 99193-3393</p>
+                </div>
+                <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="300">
+                    <a href="#clinica" 
+                       class="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mb-4 hover:bg-primary-700 transition-all duration-300 transform hover:scale-110">
+                        <i class="fas fa-map-marker-alt text-2xl"></i>
+                    </a>
+                    <h3 class="text-lg font-semibold mb-2">Endereço</h3>
+                    <p class="text-gray-600">Rua José de Alencar, 259<br>Menino Deus - Porto Alegre/RS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="equipe" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Nossa Equipe</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Profissionais especializados e experientes dedicados ao cuidado da sua pele
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="team-grid">
+                <!-- Team members will be loaded dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Clinic Section -->
+    <section id="clinica" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Nossa Clínica</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Infraestrutura moderna e completa para oferecer o melhor atendimento
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Clinic Description -->
+                <div data-aos="fade-right">
+                    <div class="prose prose-lg text-gray-700" id="clinic-description">
+                        <!-- Content will be loaded dynamically -->
+                    </div>
+                </div>
+                
+                <!-- Image Gallery -->
+                <div data-aos="fade-left">
+                    <div class="relative">
+                        <div class="gallery-container overflow-hidden rounded-lg shadow-lg">
+                            <div class="gallery-wrapper flex transition-transform duration-500 ease-in-out" id="gallery">
+                                <!-- Gallery images will be loaded dynamically -->
+                            </div>
+                        </div>
+                        
+                        <!-- Gallery Controls -->
+                        <button class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-2 shadow-lg transition-all duration-300" id="prev-btn">
+                            <i class="fas fa-chevron-left text-gray-700"></i>
+                        </button>
+                        <button class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-2 shadow-lg transition-all duration-300" id="next-btn">
+                            <i class="fas fa-chevron-right text-gray-700"></i>
+                        </button>
+                        
+                        <!-- Gallery Indicators -->
+                        <div class="flex justify-center mt-4 space-x-2" id="gallery-indicators">
+                            <!-- Indicators will be added dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Google Maps -->
+            <div class="mt-16" data-aos="fade-up">
+                <h3 class="text-2xl font-bold text-center mb-8">Nossa Localização</h3>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.234567890123!2d-51.230123456789!3d-30.065432109876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199dcbfadfabc123%3A0x123456789abcdef!2sRua%20Jos%C3%A9%20de%20Alencar%2C%20259%20-%20Menino%20Deus%2C%20Porto%20Alegre%20-%20RS!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        class="w-full"
+                        title="Localização MD Dermatologia Integrada">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="atuacao" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Áreas de Atuação</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Oferecemos tratamentos completos em dermatologia clínica, estética e cirúrgica
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8" id="services-grid">
+                <!-- Services will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5551991933393?text=Olá%20gostaria%20de%20agendar%20uma%20consulta" 
+       class="fixed bottom-6 right-6 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl shadow-lg hover:bg-green-600 transition-all duration-300 z-30 hover:scale-110"
+       id="whatsapp-float"
+       aria-label="Falar no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/img/logo-placeholder.jpeg" alt="MD Dermatologia Integrada" class="h-10 w-10 mr-3 rounded-full object-cover">
+                        <span class="text-xl font-bold">MD Dermatologia Integrada</span>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        Mais de 13 anos cuidando da sua pele com excelência e dedicação. 
+                        Somos especialistas em dermatologia clínica, estética e cirúrgica.
+                    </p>
+                    <div class="flex space-x-4">
+                        <!-- Substitua pelos links reais das redes sociais -->
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-linkedin-in text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contato</h3>
+                    <div class="space-y-2 text-gray-300">
+                        <p><i class="fas fa-phone mr-2"></i> (51) 3377-3333</p>
+                        <p><i class="fab fa-whatsapp mr-2"></i> (51) 99193-3393</p>
+                        <p><i class="fas fa-map-marker-alt mr-2"></i> Rua José de Alencar, 259<br>Menino Deus - Porto Alegre/RS</p>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Links Rápidos</h3>
+                    <div class="space-y-2">
+                        <a href="#main" class="block text-gray-300 hover:text-white transition-colors duration-300">Início</a>
+                        <a href="#equipe" class="block text-gray-300 hover:text-white transition-colors duration-300">Equipe</a>
+                        <a href="#clinica" class="block text-gray-300 hover:text-white transition-colors duration-300">Clínica</a>
+                        <a href="#atuacao" class="block text-gray-300 hover:text-white transition-colors duration-300">Áreas de Atuação</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+                <p>&copy; 2025 MD Dermatologia Integrada. Todos os direitos reservados.</p>
+                <p class="mt-2 text-sm">
+                    Desenvolvido com <i class="fas fa-heart text-red-500 mx-1"></i> para cuidar da sua pele
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+
+<style>
+#minimax-floating-ball {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 12px;
+  background: #222222;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  color: #F8F8F8;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 9999;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#minimax-floating-ball:hover {
+  transform: translateY(-2px);
+  background: #383838;
+}
+
+.minimax-ball-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.minimax-logo-wave {
+  width: 26px;
+  height: 22px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='22' viewBox='0 0 26 22' fill='none'%3E%3Cg clip-path='url(%23clip0_3442_102412)'%3E%3Cpath d='M12.8405 14.6775C12.8405 14.9897 13.0932 15.2424 13.4055 15.2424C13.7178 15.2424 13.9705 14.9897 13.9705 14.6775V2.98254C13.9705 1.88957 13.0809 1 11.9879 1C10.895 1 10.0054 1.88957 10.0054 2.98254V11.566V17.1068C10.0054 17.5773 9.62327 17.9594 9.1528 17.9594C8.68233 17.9594 8.30021 17.5773 8.30021 17.1068V8.04469C8.30021 6.95172 7.41063 6.06215 6.31767 6.06215C5.22471 6.06215 4.33513 6.95172 4.33513 8.04469V11.8855C4.33513 12.3559 3.953 12.7381 3.48254 12.7381C3.01207 12.7381 2.62994 12.3559 2.62994 11.8855V10.4936C2.62994 10.1813 2.37725 9.92861 2.06497 9.92861C1.7527 9.92861 1.5 10.1813 1.5 10.4936V11.8855C1.5 12.9784 2.38957 13.868 3.48254 13.868C4.5755 13.868 5.46508 12.9784 5.46508 11.8855V8.04469C5.46508 7.57422 5.8472 7.19209 6.31767 7.19209C6.78814 7.19209 7.17026 7.57422 7.17026 8.04469V17.1068C7.17026 18.1998 8.05984 19.0894 9.1528 19.0894C10.2458 19.0894 11.1353 18.1998 11.1353 17.1068V2.98254C11.1353 2.51207 11.5175 2.12994 11.9879 2.12994C12.4584 2.12994 12.8405 2.51207 12.8405 2.98254V14.6775Z' fill='%23F8F8F8'/%3E%3Cpath d='M23.3278 6.06215C22.2348 6.06215 21.3452 6.95172 21.3452 8.04469V15.6143C21.3452 16.0847 20.9631 16.4669 20.4926 16.4669C20.0222 16.4669 19.6401 16.0847 19.6401 15.6143V2.98254C19.6401 1.88957 18.7505 1 17.6575 1C16.5645 1 15.675 1.88957 15.675 2.98254V19.0175C15.675 19.4879 15.2928 19.8701 14.8224 19.8701C14.3519 19.8701 13.9698 19.4879 13.9698 19.0175V17.0329C13.9698 16.7206 13.7171 16.4679 13.4048 16.4679C13.0925 16.4679 12.8398 16.7206 12.8398 17.0329V19.0175C12.8398 20.1104 13.7294 21 14.8224 21C15.9153 21 16.8049 20.1104 16.8049 19.0175V2.98254C16.8049 2.51207 17.187 2.12994 17.6575 2.12994C18.128 2.12994 18.5101 2.51207 18.5101 2.98254V15.6143C18.5101 16.7072 19.3997 17.5968 20.4926 17.5968C21.5856 17.5968 22.4752 16.7072 22.4752 15.6143V8.04469C22.4752 7.57422 22.8573 7.19209 23.3278 7.19209C23.7982 7.19209 24.1804 7.57422 24.1804 8.04469V14.6775C24.1804 14.9897 24.4331 15.2424 24.7453 15.2424C25.0576 15.2424 25.3103 14.9897 25.3103 14.6775V8.04469C25.3103 6.95172 24.4207 6.06215 23.3278 6.06215Z' fill='%23F8F8F8'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_3442_102412'%3E%3Crect width='25' height='22' fill='white' transform='translate(0.5)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.minimax-ball-text {
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.minimax-close-icon {
+  margin-left: 8px;
+  font-size: 16px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.minimax-close-icon:hover {
+  opacity: 1;
+}
+</style>
+<div id="minimax-floating-ball">
+  <div class="minimax-ball-content">
+    <div class="minimax-logo-wave"></div>
+    <span class="minimax-ball-text">Created by MiniMax Agent</span>
+  </div>
+  <div class="minimax-close-icon">×</div>
+</div>
+<script>
+// Initialize floating ball functionality
+function initFloatingBall() {
+  const ball = document.getElementById('minimax-floating-ball');
+  if (!ball) return;
+
+  // Initial animation
+  ball.style.opacity = '0';
+  ball.style.transform = 'translateY(20px)';
+
+  setTimeout(() => {
+    ball.style.opacity = '1';
+    ball.style.transform = 'translateY(0)';
+  }, 500);
+
+  // Handle logo click
+  const ballContent = ball.querySelector('.minimax-ball-content');
+  ballContent.addEventListener('click', function (e) {
+    e.stopPropagation();
+    window.open('https://agent.minimax.io/agent', '_blank');
+    ball.style.transform = 'scale(0.95)';
+    setTimeout(() => {
+      ball.style.transform = 'scale(1)';
+    }, 100);
+  });
+
+  // Handle close button click
+  const closeIcon = ball.querySelector('.minimax-close-icon');
+  closeIcon.addEventListener('click', function (e) {
+    e.stopPropagation();
+    ball.style.opacity = '0';
+    ball.style.transform = 'translateY(20px)';
+
+    setTimeout(() => {
+      ball.style.display = 'none';
+    }, 300);
+  });
+}
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', initFloatingBall); 
+</script>
+
+</body>
+</html>
