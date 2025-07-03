@@ -339,6 +339,11 @@ a:focus {
     background-color: #e9e6e6 !important;
 }
 
+/* Seção Áreas de Atuação - Fundo */
+#atuacao {
+    background-color: #7f899f !important; /* NOVO: Cor de fundo para a seção */
+}
+
 /* Rodapé - Fundo */
 footer {
     background-color: #2d3d55 !important;
