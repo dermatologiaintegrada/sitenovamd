@@ -2,7 +2,7 @@
   "site": {
     "title": "MD Dermatologia Integrada",
     "description": "Clínica de dermatologia em Porto Alegre com equipe especializada em dermatologia clínica, estética e cirúrgica.",
-    "keywords": "dermatologia, Porto Alegre, dermatologista, pele, estética, cirurgia dermatológica"
+    "keywords": "dermatologia, Porto Alegre, dermatologista, pele, estética, cirurgia de  Mohs, Mohs, preenchimento, Botox, cirurgia dermatológica"
   },
   "contact": {
     "phone": "(51) 3377-3333",
@@ -22,42 +22,42 @@
       "especialidade": "Cirurgiã Geral e Cirurgiã do Aparelho Digestivo",
       "crm": "CRM-RS 33623 | RQE 26877 / 24100",
       "bio": "Médica graduada pela Pontifícia Universidade Católica de Porto Alegre (PUCRS). Residência em Cirurgia Geral pelo Hospital São Lucas da PUCRS. Residência em Cirurgia do Aparelho Digestivo pelo Hospital São Lucas da PUCRS. Titular Especialista do Colégio Brasileiro de Cirurgia Digestiva - CBCD. Membro do Grupo Brasileiro de Melanoma - GBM",
-      "foto": "assets/img/doctor-portrait-1.webp"
+      "foto": "assets/img/carla.jpg"
     },
     {
       "nome": "Dr. Fabiano Siviero Pacheco",
       "especialidade": "Dermatologista",
       "crm": "CRM-RS 23805 | RQE 18573",
       "bio": "Médico graduado pela Universidade Federal do Rio Grande do Sul (UFRGS). Especialização no Serviço de Dermatologia do HCPA; Especialista em Dermatologia pela Sociedade Brasileira de Dermatologia (SBD).",
-      "foto": "assets/img/doctor-portrait-2.webp"
+      "foto": "assets/img/fabiano.jpg"
     },
     {
       "nome": "Dra. Fernanda Musa Aguiar",
       "especialidade": "Dermatologista",
       "crm": "CRM-RS 35968 | RQE 32550",
       "bio": "Médica graduada pela Universidade Federal de Ciências da Saúde de Porto Alegre (UFCSPA) em 2011. Residência Médica em Medicina Interna pelo Hospital Nossa Senhora da Conceição. Especialização em Dermatologia pela Santa Casa de Misericórdia de Porto Alegre. Especialista em Dermatologia pela Sociedade Brasileira de Dermatologia (SBD). Fellowship em Unha e Cirurgia da Unha em 2019 pela Universidade de Bologna, Itália. Médica Residente Visitante no Ludwig-Maximilians-Universität em Munique, Alemanha em 2017. Chefe do Serviço de Dermatologista do Hospital Mãe de Deus. Membro da Sociedade Brasileira de Dermatologia (SBD) e da European Nail Society (ENS).",
-      "foto": "assets/img/doctor-portrait-1.webp"
+      "foto": "assets/img/fernanda.jpg"
     },
     {
       "nome": "Dr. Leandro Linhares Leite",
       "especialidade": "Dermatologista",
       "crm": "CRM-RS 39057 | RQE 30471",
       "bio": "Médico graduado pela Universidade Federal do Ceará (UFC). Residência Médica no Hospital de Clínicas de Porto Alegre. Dermatologista-Médico Membro da Sociedade Brasileira de Dermatologia-SBD. Mestrado em Ciências Médicas pela UFRGS. Especialista em psoríase e outras doenças autoimunes da pele como urticária, dermatite atópica e hidradenite supurativa. Preceptor do Ambulatório de Doenças Auto-imunes do Hospital São Lucas da PUCRS. Médico do Serviço de Imunodermatologia do Hospital Moinhos de Vento. Experiente com o uso de medicamentos Imunobiológicos.",
-      "foto": "assets/img/doctor-portrait-2.webp"
+      "foto": "assets/img/leandro.jpg"
     },
     {
       "nome": "Dra. Luiza Nunes Lages",
       "especialidade": "Dermatologista",
       "crm": "CRM-RS 33309 / RQE 28891",
       "bio": "Médica graduada pela Universidade Federal do Rio Grande do Sul (UFRGS). Residência Médica em Dermatologia pela Universidade Federal de Santa Maria (UFSM). Título de Especialista em Dermatologia pela Sociedade Brasileira de Dermatologia (SBD) e Associação Médica Brasileira (AMB). Dermatologista do Corpo Clínico do Hospital Mãe de Deus - Porto Alegre.",
-      "foto": "assets/img/doctor-portrait-1.webp"
+      "foto": "assets/img/luiza.jpg"
     },
     {
       "nome": "Dr. Roberto Luís Rezende",
       "especialidade": "Dermatologista",
       "crm": "CRM-RS 25079 | RQE 15774",
       "bio": "Médico graduado pela Universidade Federal do Rio Grande do Sul (UFRGS). Especialização no Serviço de Dermatologia do HCPA; Especialista em Dermatologia pela Sociedade Brasileira de Dermatologia (SBD). Responsável técnico pela Dermatologia Integrada.",
-      "foto": "assets/img/doctor-portrait-2.webp"
+      "foto": "assets/img/roberto.jpg"
     }
   ],
   "clinica": {
