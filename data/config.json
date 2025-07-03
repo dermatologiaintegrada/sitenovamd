@@ -1,0 +1,109 @@
+{
+  "site": {
+    "title": "MD Dermatologia Integrada",
+    "description": "Clínica de dermatologia em Porto Alegre com equipe especializada em dermatologia clínica, estética e cirúrgica.",
+    "keywords": "dermatologia, Porto Alegre, dermatologista, pele, estética, cirurgia dermatológica"
+  },
+  "contact": {
+    "phone": "(51) 3377-3333",
+    "whatsapp": "(51) 99193-3393",
+    "whatsappLink": "https://wa.me/5551991933393?text=Olá%20gostaria%20de%20agendar%20uma%20consulta",
+    "address": "Rua José de Alencar, 259 | Menino Deus | Porto Alegre | RS",
+    "mapEmbed": "https://maps.google.com/?cid=12525999446983698294&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ"
+  },
+  "hero": {
+    "headline": "Cuidando da sua pele com excelência e dedicação",
+    "subtitle": "Mais de 300.000 pacientes atendidos e 13 anos de experiência em dermatologia clínica, estética e cirúrgica em Porto Alegre",
+    "ctaText": "Agendar Consulta"
+  },
+  "equipe": [
+    {
+      "nome": "Dra. Carla Bochi",
+      "especialidade": "Cirurgiã Geral e Cirurgiã do Aparelho Digestivo",
+      "crm": "CRM-RS 33623 | RQE 26877 / 24100",
+      "bio": "Médica graduada pela Pontifícia Universidade Católica de Porto Alegre (PUCRS). Residência em Cirurgia Geral pelo Hospital São Lucas da PUCRS. Residência em Cirurgia do Aparelho Digestivo pelo Hospital São Lucas da PUCRS. Titular Especialista do Colégio Brasileiro de Cirurgia Digestiva - CBCD. Membro do Grupo Brasileiro de Melanoma - GBM",
+      "foto": "assets/img/doctor-portrait-1.webp"
+    },
+    {
+      "nome": "Dr. Fabiano Siviero Pacheco",
+      "especialidade": "Dermatologista",
+      "crm": "CRM-RS 23805 | RQE 18573",
+      "bio": "Médico graduado pela Universidade Federal do Rio Grande do Sul (UFRGS). Especialização no Serviço de Dermatologia do HCPA; Especialista em Dermatologia pela Sociedade Brasileira de Dermatologia (SBD).",
+      "foto": "assets/img/doctor-portrait-2.webp"
+    },
+    {
+      "nome": "Dra. Fernanda Musa Aguiar",
+      "especialidade": "Dermatologista",
+      "crm": "CRM-RS 35968 | RQE 32550",
+      "bio": "Médica graduada pela Universidade Federal de Ciências da Saúde de Porto Alegre (UFCSPA) em 2011. Residência Médica em Medicina Interna pelo Hospital Nossa Senhora da Conceição. Especialização em Dermatologia pela Santa Casa de Misericórdia de Porto Alegre. Especialista em Dermatologia pela Sociedade Brasileira de Dermatologia (SBD). Fellowship em Unha e Cirurgia da Unha em 2019 pela Universidade de Bologna, Itália. Médica Residente Visitante no Ludwig-Maximilians-Universität em Munique, Alemanha em 2017. Chefe do Serviço de Dermatologista do Hospital Mãe de Deus. Membro da Sociedade Brasileira de Dermatologia (SBD) e da European Nail Society (ENS).",
+      "foto": "assets/img/doctor-portrait-1.webp"
+    },
+    {
+      "nome": "Dr. Leandro Linhares Leite",
+      "especialidade": "Dermatologista",
+      "crm": "CRM-RS 39057 | RQE 30471",
+      "bio": "Médico graduado pela Universidade Federal do Ceará (UFC). Residência Médica no Hospital de Clínicas de Porto Alegre. Dermatologista-Médico Membro da Sociedade Brasileira de Dermatologia-SBD. Mestrado em Ciências Médicas pela UFRGS. Especialista em psoríase e outras doenças autoimunes da pele como urticária, dermatite atópica e hidradenite supurativa. Preceptor do Ambulatório de Doenças Auto-imunes do Hospital São Lucas da PUCRS. Médico do Serviço de Imunodermatologia do Hospital Moinhos de Vento. Experiente com o uso de medicamentos Imunobiológicos.",
+      "foto": "assets/img/doctor-portrait-2.webp"
+    },
+    {
+      "nome": "Dra. Luiza Nunes Lages",
+      "especialidade": "Dermatologista",
+      "crm": "CRM-RS 33309 / RQE 28891",
+      "bio": "Médica graduada pela Universidade Federal do Rio Grande do Sul (UFRGS). Residência Médica em Dermatologia pela Universidade Federal de Santa Maria (UFSM). Título de Especialista em Dermatologia pela Sociedade Brasileira de Dermatologia (SBD) e Associação Médica Brasileira (AMB). Dermatologista do Corpo Clínico do Hospital Mãe de Deus - Porto Alegre.",
+      "foto": "assets/img/doctor-portrait-1.webp"
+    },
+    {
+      "nome": "Dr. Roberto Luís Rezende",
+      "especialidade": "Dermatologista",
+      "crm": "CRM-RS 25079 | RQE 15774",
+      "bio": "Médico graduado pela Universidade Federal do Rio Grande do Sul (UFRGS). Especialização no Serviço de Dermatologia do HCPA; Especialista em Dermatologia pela Sociedade Brasileira de Dermatologia (SBD). Responsável técnico pela Dermatologia Integrada.",
+      "foto": "assets/img/doctor-portrait-2.webp"
+    }
+  ],
+  "clinica": {
+    "descricao": "A dermatologia é a especialidade médica que se dedica ao diagnóstico e tratamento clínico e cirúrgico das enfermidades que acometem a pele, as mucosas, e aos anexos cutâneos: cabelos, pelos e unhas. O profissional dermatologista está apto a diagnosticar e tratar todas as doenças que afetam a pele.\n\nA MD Dermatologia Integrada foi criada em outubro de 2012 e surgiu da necessidade do hospital Mãe de Deus de oferecer um atendimento qualificado para pacientes dermatológicos. Teve início como o Serviço de Dermatologia que funcionava dentro do próprio Hospital. Fomos pioneiros como serviço do Sistema de Saúde Mãe de Deus a funcionar fora do hospital.\n\nFizemos a mudança da nossa sede em fevereiro de 2024. Temos uma infra-estrutura com três consultórios para atendimentos de consultas eletivas. Nossa equipe possui dermatologistas focados em subespecialidades e uma cirurgiã especializada em cirurgia dermatológica. Contamos ainda com uma técnica de enfermagem, uma auxiliar de limpeza e duas secretárias que complementam a equipe, desta forma oferecemos um atendimento diferenciado que abrange todas as necessidades do paciente.\n\nEm outubro de 2025 completamos 13 anos de existência com mais de 300.000 atendimentos prestados, agregando valor e confiança aos nossos pacientes.",
+    "galeria": [
+      "assets/img/clinic-reception.jpg",
+      "assets/img/consultation-room.jpg",
+      "assets/img/treatment-room.jpg",
+      "assets/img/clinic-interior.jpg"
+    ]
+  },
+  "atuacao": {
+    "estetica": {
+      "titulo": "Dermatologia Estética",
+      "descricao": "Dermatologia estética é a área da dermatologia que atua nas questões relacionadas a estética e beleza da pele, cabelos e unhas. Nesta especialidade, são realizados tratamentos visando a melhora de situações que possam trazer prejuízo estético, como cicatrizes, manchas, assim como melhoria dos sinais de envelhecimento, tais como rugas, sulcos, flacidez. Todos os métodos de tratamento estético realizados na Dermatologia Integrada são comprovadamente eficazes e cientificamente aceitos.",
+      "procedimentos": {
+        "Peeling Químico": "Consiste na aplicação de uma solução composta por ácidos e outras substâncias para uso na pele da face, colo e mãos. É indicado no tratamento da acne, manchas solares, melasma, poros dilatados, cicatrizes de acne e rugas finas. É um procedimento realizado em ambiente de consultório, promovendo uma agressão nas camadas da pele. Esta agressão pode ser superficial ou atingir uma profundidade maior, dependendo do tipo e da concentração da substância escolhida para uso. Os peelings mais superficiais determinam uma descamação fina e discreta. Os mais profundos ocasionam uma descamação mais escura e espessa. Após a descamação, a pele fica mais fina, homogênea, clara e viçosa.",
+        "Microagulhamento": "O microagulhamento é um tratamento minimamente invasivo, feito por meio de um rolo com muitas agulhas finas de aço cirúrgico que causam micro perfurações na pele, induzindo a produção de novas fibras colágenas. Pode ser utilizado para o rejuvenescimento, tratamento de cicatrizes de acne, estrias, entre outras indicações. O procedimento promove a melhora da textura e firmeza da pele, atenua as cicatrizes, estrias e, ainda, o tamanho dos poros. Os pequenos \"furinhos\" decorrentes do tratamento também podem facilitar a absorção de outras substâncias que combatem os sinais de envelhecimento, tais como a vitamina C e retinol, processo conhecido como \"drug delivery\". Por ser levemente doloroso, o procedimento é realizado com anestésico em creme no local.",
+        "Toxina Botulínica": "A toxina botulínica atua no rejuvenescimento por bloquear a contração da musculatura responsável pela mímica facial. Com a musculatura relaxada, e dependendo da profundidade das rugas na pele, estas rugas melhoram sua intensidade e até desaparecem. É aplicada através de injeções com agulhas muito finas, sob anestesia local feita com creme anestésico. Após o bloqueio da musculatura, que leva até 20 dias, o efeito perdura por um período que varia de 4 a 6 meses, dependendo do organismo de cada indivíduo.",
+        "Toxina Botulínica para Hiperidrose": "A hiperidrose consiste na produção excessiva de suor, decorrente da hiperatividade das glândulas sudoríparas. Normalmente é acentuada pela ansiedade ou estresse. A sudorese excessiva pode prejudicar a qualidade de vida das pessoas afetadas. Um simples abraço ou aperto de mão podem gerar constrangimento para quem sofre de hiperidrose. Surgem, então, problemas em relacionamentos interpessoais, prejuízos profissionais e sociais. A toxina botulínica pode ser usada com sucesso principalmente nas pessoas que têm hiperidrose axilar e, eventualmente, na hiperidrose palmar. Trata-se de um método minimamente invasivo, sem risco cirúrgico, com resultados rápidos e efetivos, proporcionando redução do suor em até 99,4%. A duração do efeito é de 6 a 10 meses, com resultados individuais. O procedimento pode ser feito em consultório, apenas com analgesia tópica.",
+        "Hidratação Injetável": "A hidratação injetável, também conhecida por skinbooster, é um procedimento minimamente invasivo que consiste na aplicação de ácido hialurônico na pele, devolvendo a hidratação, firmeza, elasticidade e melhora das rugas. Este procedimento também induz a produção de novo colágeno na pele. É indicado para tratar aquelas ruguinhas finas ao redor dos olhos, lábios, pescoço, colo e mãos. Este tipo de tratamento pode ser associado com outros métodos para obtermos melhor resultado, como: peeling, laser e luz pulsada. O tratamento consiste em 3 sessões, com intervalo de 30 dias entre cada uma.",
+        "Preenchimento": "Consiste na aplicação de substâncias que fazem volume nas áreas aplicadas na face. A substância usada em nossa clínica é o ácido hialurônico, que é injetado sob anestesia local tópica entre as camadas da derme. É utilizado para correção de sulcos na face, rugas finas, olheiras, além de poder dar contorno ou volume aos lábios. Sua duração dependerá do local onde foi aplicado, assim como a quantidade usada, variando de 6 a 12 meses.",
+        "Volumização Facial": "É o método de preenchimento profundo com ácido hialurônico que tem como objetivo refazer o volume de gordura perdido com o envelhecimento. Pode ser aplicado na região malar (maçãs do rosto), têmporas, bochechas, linha mandibular.",
+        "Radiofrequência": "É um tratamento estético, indolor, que visa a melhora da flacidez e celulite. Através da aplicação na pele de um aparelho que emite ondas de radiofrequência, consegue-se um aumento da temperatura das camadas mais profundas da derme e tecido subcutâneo. Este aumento da temperatura, que fica entre 39 a 42 graus C., estimula a contração das fibras colágenas e posteriormente aumento da atividade dos fibroblastos, que são as células que produzem fibras colágenas. O resultado é individual e costuma a ser observado após 4 a 6 sessões. O intervalo entre cada aplicação varia de 10 a 20 dias, dependendo do aparelho e protocolo utilizado.",
+        "Depilação a Laser": "O laser é um feixe de luz altamente concentrado. Essa luz emitida é atraída pelo pigmento marrom da raiz do pelo e o calor gerado é captado por este pigmento, danificando o folículo piloso. Desta forma, retarda ou impede o crescimento de um novo fio. O laser atinge principalmente os pelos na sua fase ativa de crescimento (fase anágena). Como nem todos os fios estão nessa etapa, são necessárias várias sessões para se atingir o resultado desejado. O número de sessões dependerá da área tratada, da densidade dos pelos e do ciclo de crescimento deles. Em média são necessárias 6 sessões. O resultado do tratamento varia de paciente para paciente, pois fatores como cor da pele, cor do pelo e espessura do pelo são determinantes. Pessoas de pele clara e pelos escuros costumam ter os melhores resultados.",
+        "Luz Intensa Pulsada (LIP)": "Trata-se de um aparelho que possui uma lâmpada flash de alta energia, ou seja, emite luz. O que permite que a LIP trate diferentes problemas é sua amplitude de comprimento de ondas, que atingem diferentes profundidades da pele. Essas ondas atingem diferentes alvos: a melanina - que, em excesso, causa sardas e manchas -, os vasos sanguíneos - no caso, os microvasos da face e colo principalmente - e o colágeno - para tratamento flacidez e rugas. A Luz Pulsada possibilita o tratamento de várias lesões causadas pelo fotoenvelhecimento, em diversas áreas do corpo como face, dorso das mãos, colo e pescoço. Trata rugas finas, vasos faciais, rosácea, melanoses solares, dano solar crônico, alteração de textura da pele, olheiras, poiquilodermia (manchas, vasos e envelhecimento do colo e pescoço), e pode ser utilizada para depilação.",
+        "Laser": "Laser vem da sigla em inglês que corresponde à expressão \"Light Amplification by Stimuletad Emission of Radiation\". Na prática, é uma tecnologia que produz radiação eletromagnética contra determinado alvo na pele, que pode ser desde um pigmento, como por exemplo, a melanina (presente nas manchas de sol) até pigmentos de tatuagem, ou até mesmo a água, que é o alvo no rejuvenescimento. Sua aplicabilidade é vasta na dermatologia e pode ser usado em muitas condições clínicas como manchas pigmentadas (melanoses solares e melasma), pigmentos de tatuagem, remoção de pelos, lesões vasculares, rejuvenescimento e estrias. Existe um tipo diferente de laser para cada caso, cada um com características próprias para um determinado tipo de tratamento. Sua eficácia já é comprovada cientificamente há vários anos."
+      }
+    },
+    "clinica": {
+      "titulo": "Dermatologia Clínica",
+      "descricao": "A dermatologia clínica é responsável por estudar, diagnosticar e tratar as doenças que acometem a pele, as unhas e os cabelos. A dermatologia é a especialidade médica com maior número de doenças documentadas. As doenças dermatológicas podem ser classificadas de maneira simples dentro de grandes grupos, como por exemplo: doenças alérgicas, auto-imunes, infecções, infestações e tumores de pele.",
+      "procedimentos": {
+        "Dermatoscopia Digital": "A DD é uma técnica não invasiva, comparativa, que usa um dermatoscópio digital. Com este equipamento registramos imagens da estrutura dos sinais, permitindo a visualização das alterações dos sinais mais precocemente. Assim, o diagnóstico do melanoma acontece nos seus estágios iniciais, com maior chance de cura. Tem indicação principalmente para as pessoas que já tiveram melanoma, pacientes que tiveram familiares com melanoma e ainda aqueles com muitos sinais irregulares.",
+        "Mapeamento Corporal de Nevos": "Atualmente sabemos que a maioria dos melanomas surge na pele como uma lesão nova (um novo sinal). O Mapeamento dos Sinais nos permite através da comparação de imagens de toda pele, a detecção de novos sinais assim que eles aparecem. O exame registra todos os sinais de uma pessoa, também auxiliando na visualização de mudanças clínicas dos sinais. É um exame rápido e não invasivo, utilizando o FotoFinder, um videodermatoscópio de última geração."
+      }
+    },
+    "cirurgica": {
+      "titulo": "Dermatologia Cirúrgica",
+      "descricao": "A Cirurgia Dermatológica é uma área de atuação da Dermatologia que abrange procedimentos diversos, capazes de remover ou modificar a pele e o tecido celular subcutâneo, sejam eles diagnósticos, cirúrgicos ou oncológicos. Dentre os procedimentos realizados, podemos destacar: criocirurgia, remoção de pintas e sinais, eletrocirurgia, cirurgia Micrográfica de Mohs e eletrocirurgia, cirurgia de unha e transplante de cabelos. Abrangente, a Cirurgia Dermatológica engloba desde tratamentos para melhorar a qualidade de vida e a auto-estima de seus pacientes até tratamentos para câncer de pele e outras doenças, utilizando o que existe de mais moderno em terapêutica médica.",
+      "procedimentos": {
+        "Cirurgia Básica": "Remoção de pintas, cistos, lipomas, unha encravada, etc.",
+        "Cirurgia Avançada": "Retirada de tumores e cânceres de pele, enxertos, correção de cicatrizes, etc.",
+        "Cirurgia Corretiva": "Tratamento de cicatrizes de acne, tatuagens, manchas, etc.",
+        "Terapia Fotodinâmica": "A terapia fotodinâmica é o mais moderno método para o tratamento do câncer de pele. Consiste na aplicação de um creme especial seguido do uso de uma luz específica. Sua grande vantagem é que não deixa cicatriz nenhuma e quando indicado corretamente possui a mesma eficácia da cirurgia convencional. É usada também no tratamento de lesões pré-cancerígenas e no rejuvenescimento da pele, além outras indicações em estudo."
+      }
+    }
+  }
+}
