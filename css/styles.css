@@ -146,14 +146,6 @@ html, body {
     box-shadow: 0 15px 30px rgba(14, 165, 233, 0.1);
 }
 
-.service-icon {
-    transition: all 0.3s ease-in-out;
-}
-
-.service-card:hover .service-icon {
-    transform: scale(1.1);
-}
-
 /* Procedure Tags */
 .procedure-tag {
     transition: all 0.3s ease-in-out;
@@ -347,6 +339,19 @@ a:focus {
 /* Rodapé - Fundo */
 footer {
     background-color: #2d3d55 !important;
+}
+
+/* NOVO: Estilo para os círculos dos ícones de Serviço */
+.service-icon-circle-custom {
+    background-color: #2d3d55 !important; /* Cor do círculo */
+    /* Garante que o texto ou qualquer coisa dentro do círculo seja branco (opcional) */
+    color: white !important;
+}
+
+/* Se você quiser manter a animação de escala no hover, aplique-a ao service-icon-circle-custom: */
+.service-card:hover .service-icon-circle-custom {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out; /* Adicione a transição aqui se for nova */
 }
 
 /* acima foi adicionado */
