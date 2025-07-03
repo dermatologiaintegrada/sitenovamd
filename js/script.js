@@ -174,12 +174,13 @@ function initializeScrollEffects() {
         if (elements.navbar) {
             if (window.scrollY > 50) {
                 elements.navbar.classList.add('shadow-lg');
-                elements.navbar.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+                elements.navbar.style.backgroundColor = '#e9e6e6';
                 elements.navbar.style.backdropFilter = 'blur(10px)';
             } else {
                 elements.navbar.classList.remove('shadow-lg');
-                elements.navbar.style.backgroundColor = 'white';
-                elements.navbar.style.backdropFilter = 'none';
+                elements.navbar.style.backgroundColor = '#e9e6e6'; // Novo fundo sem scroll
+                elements.navbar.style.backdropFilter = 'none'; // Mantenha ou remova o none
+                
             }
         }
     });
