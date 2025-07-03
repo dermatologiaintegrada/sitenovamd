@@ -73,6 +73,11 @@ function initializeComponents() {
     initializeServicesSection();
     initializeAnimations();
     initializeAccessibility();
+    
+    // **ADICIONE ESTA LINHA:** Dispara o evento de scroll uma vez no carregamento
+    // Isso forçará a lógica do scroll a ser executada no início,
+    // corrigindo a visibilidade do botão do WhatsApp
+    window.dispatchEvent(new Event('scroll'));
 }
 
 /**
