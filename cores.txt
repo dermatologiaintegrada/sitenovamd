@@ -1,0 +1,15 @@
+bege claro
+#e9e6e6
+rgba(233,230,230,255)
+
+azul escuro
+#2d3d55
+rgba(45,61,85,255)
+
+azul claro
+#7f899f
+rgba(127,137,159,255)
+
+bege escuro
+#a29f9c
+rgba(162,159,156,255)
