@@ -381,18 +381,18 @@ function initializeServicesSection() {
     const services = [
         {
             key: 'estetica',
-            icon: 'fas fa-spa',
-            color: 'bg-pink-500'
+            // icon: 'fas fa-spa', // Linha removida
+            // color: 'bg-pink-500' // Linha removida
         },
         {
             key: 'clinica',
-            icon: 'fas fa-stethoscope',
-            color: 'bg-blue-500'
+            // icon: 'fas fa-stethoscope', // Linha removida
+            // color: 'bg-blue-500' // Linha removida
         },
         {
             key: 'cirurgica',
-            icon: 'fas fa-scalpel',
-            color: 'bg-green-500'
+            // icon: 'fas fa-scalpel', // Linha removida
+            // color: 'bg-green-500' // Linha removida
         }
     ];
 
@@ -482,10 +482,9 @@ function createServiceCard(serviceData, serviceConfig, index) {
 
     card.innerHTML = `
         <div class="text-center mb-6">
-            <div class="service-icon ${serviceConfig.color} text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <i class="${serviceConfig.icon} text-2xl"></i>
-            </div>
-            <h3 class="text-2xl font-bold text-gray-800">${serviceData.titulo}</h3>
+            <div class="service-icon-circle-custom w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                </div>
+            <h3 class="text-2xl font-bold text-gray-800">${serviceData.titulo}</h3> 
         </div>
         <p class="text-gray-600 mb-6">${serviceData.descricao}</p>
         <div class="space-y-2">
