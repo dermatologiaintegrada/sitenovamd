@@ -223,7 +223,7 @@ function createTeamCard(member, index) {
 
     card.innerHTML = `
         <div class="relative overflow-hidden">
-            <img src="${member.foto}" alt="${member.nome}" class="w-full h-64 object-cover">
+            <img src="${member.foto}" alt="${member.nome}" class="w-full object-cover team-card-image-custom-height">
             <div class="absolute inset-0 bg-primary-600 bg-opacity-0 hover:bg-opacity-20 transition-all duration-300"></div>
         </div>
         <div class="p-6">
