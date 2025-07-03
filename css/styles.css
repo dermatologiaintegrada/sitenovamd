@@ -263,6 +263,11 @@ a:focus {
     animation: fadeInUp 0.6s ease-out;
 }
 
+/* NOVO: Fundo para a seção de Informações de Contato Rápido */
+.bg-primary-50 { /* Esta é a classe da section no index.html */
+    background-color: #7f899f !important;
+}
+
 /* Loading States */
 .loading-skeleton {
     background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
@@ -310,6 +315,36 @@ a:focus {
         border-color: #000 !important;
     }
 }
+
+/* NOVO: Cor de fundo para os círculos dos ícones de Contato */
+.flex.flex-col.items-center > div.bg-primary-600 { /* Seletor mais específico para os círculos */
+    background-color: #2d3d55 !important;
+}
+/* Opcional: Se quiser um hover diferente para esses círculos */
+.flex.flex-col.items-center > div.bg-primary-600:hover {
+    background-color: #1a2a40 !important; /* Um tom mais escuro no hover */
+}
+
+/* Botão Agendar Consulta - Cor personalizada */
+.bg-primary-600.text-white.px-8.py-4.rounded-full { /* Seletor para o botão "Agendar Consulta" */
+    background-color: #2d3d55 !important;
+}
+/* Opcional: Se quiser um hover diferente para este botão */
+.bg-primary-600.text-white.px-8.py-4.rounded-full:hover {
+    background-color: #1a2a40 !important; /* Um tom mais escuro para o hover */
+}
+
+/* Seção Nossa Equipe - Fundo */
+#equipe {
+    background-color: #e9e6e6 !important;
+}
+
+/* Rodapé - Fundo */
+footer {
+    background-color: #2d3d55 !important;
+}
+
+/* acima foi adicionado */
 
 /* Reduced Motion Support */
 @media (prefers-reduced-motion: reduce) {
