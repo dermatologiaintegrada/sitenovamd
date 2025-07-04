@@ -40,6 +40,14 @@ html, body {
 /* Navigation Enhancements */
 .nav-link {
     position: relative;
+    /* Adicione esta regra para a cor do texto no hover */
+    color: #2d3d55 !important; /* Cor do texto dos links para #2d3d55 */
+}
+
+/* NOVO: Ajuste para a cor inicial dos links se eles não estiverem em hover */
+/* Isso garante que eles comecem com a cor padrão adequada (ex: cinza escuro) */
+.nav-link:not(:hover):not(.active) {
+    color: #4a5568 !important; /* Um tom de cinza para os links inativos, ajuste se precisar de outra cor */
 }
 
 .nav-link::after {
@@ -49,9 +57,11 @@ html, body {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #0ea5e9;
+    background-color: #2d3d55 !important; /* NOVO: Cor do sublinhado para #2d3d55 */
     transition: width 0.3s ease-in-out;
 }
+
+
 
 .nav-link:hover::after,
 .nav-link.active::after {
@@ -344,6 +354,13 @@ a:focus {
 /* Rodapé - Fundo */
 footer {
     background-color: #2d3d55 !important;
+}
+
+/* NOVO: Overlay de Fundo da Seção Hero */
+.hero-overlay-custom {
+    background-color: #7f899f; /* A cor base */
+    opacity: 0.70; /* A opacidade que você já tinha */
+    /* Você pode combinar isso em background-color: rgba(127, 137, 159, 0.7); se preferir */
 }
 
 /* NOVO: Estilo para os círculos dos ícones de Serviço */
