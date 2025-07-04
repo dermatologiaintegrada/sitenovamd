@@ -494,7 +494,7 @@ function createServiceCard(serviceData, serviceConfig, index) {
             </div>
         </div>
         <div id="procedure-details-${serviceConfig.key}" class="procedure-details mt-6 hidden">
-            <div class="bg-primary-50 p-4 rounded-lg">
+            <div class="bg-light-gray-custom p-4 rounded-lg">
                 <h5 class="font-semibold text-primary-700 mb-2" id="procedure-title-${serviceConfig.key}"></h5>
                 <p class="text-gray-700 text-sm leading-relaxed" id="procedure-description-${serviceConfig.key}"></p>
                 <button class="mt-3 text-primary-600 hover:text-primary-700 text-sm font-medium" onclick="hideProcedureDetails('${serviceConfig.key}')">
