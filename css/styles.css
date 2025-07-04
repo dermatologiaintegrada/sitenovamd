@@ -336,6 +336,11 @@ a:focus {
     background-color: #7f899f !important; /* NOVO: Cor de fundo para a seção */
 }
 
+/* NOVO: Cor de fundo para os detalhes dos procedimentos */
+.bg-light-gray-custom {
+    background-color: #e9e6e6 !important;
+}
+
 /* Rodapé - Fundo */
 footer {
     background-color: #2d3d55 !important;
