@@ -108,6 +108,18 @@ html, body {
     transform: scale(1.05);
 }
 
+/* Estilos para as listas de biografia dos membros da equipe */
+.team-card .text-gray-700 ul {
+    list-style-type: disc; /* Garante que os marcadores sejam círculos preenchidos */
+    padding-left: 1.25rem; /* Recuo à esquerda para os marcadores */
+    margin-bottom: 0.5rem; /* Espaçamento abaixo da lista, se houver outro conteúdo */
+}
+
+.team-card .text-gray-700 ul li {
+    margin-bottom: 0.25rem; /* Espaçamento entre cada item da lista */
+    line-height: 1.5; /* Ajusta o espaçamento da linha para melhor leitura */
+}
+
 /* Gallery Styles */
 .gallery-container {
     position: relative;
