@@ -1,6 +1,6 @@
 # MD Dermatologia Integrada - Website
 
-Site institucional responsivo e moderno para a MD Dermatologia Integrada, desenvolvido com HTML5, CSS3, JavaScript e Tailwind CSS.
+Site responsivo e moderno para a MD Dermatologia Integrada, desenvolvido com HTML5, CSS3, JavaScript e Tailwind CSS.
 
 ## 🏗️ Estrutura do Projeto
 
