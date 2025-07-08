@@ -20,7 +20,7 @@
  "equipe": [
     {
       "nome": "Dra. Carla Bochi",
-      "especialidade": "Cirurgiã Geral e Cirurgiã do Aparelho Digestivo",
+      "especialidade": "Cirurgiã de Mohs e Cirurgiã com atuação em oncologia cutânea",
       "crm": "CRM-RS 33623 | RQE 26877 / 24100",
       "bio": "<ul>\n  <li>Médica graduada pela Pontifícia Universidade Católica de Porto Alegre (PUCRS).</li>\n  <li>Residência em Cirurgia Geral pelo Hospital São Lucas da PUCRS.</li>\n  <li>Residência em Cirurgia do Aparelho Digestivo pelo Hospital São Lucas da PUCRS.</li>\n  <li>Titular Especialista do Colégio Brasileiro de Cirurgia Digestiva - CBCD.</li>\n   <li>Aptidão em Cirurgia Oncológica certificada pela AMB portaria 140 Ofícios 0258/2008 e 102/2021 da Associação Médica Brasileira.</li>\n   <li>Fundamentals of Mohs Surgery. (San Diego - Califórnia)</li>\n   <li>Treinamento Intensivo em Mohs Surgery (TIMOS - Brasil).</li>\n </ul>",
       "foto": "assets/img/carla.jpg"
@@ -57,7 +57,7 @@
       "nome": "Dr. Roberto Luís Rezende",
       "especialidade": "Dermatologista",
       "crm": "CRM-RS 25079 | RQE 15774",
-      "bio": "<ul>\n        <li>Médico graduado pela Universidade Federal do Rio Grande do Sul (UFRGS).</li>\n        <li>Especialização no Serviço de Dermatologia do HCPA.</li>\n        <li>Especialista em Dermatologia pela Sociedade Brasileira de Dermatologia (SBD).</li>\n        <li>Responsável técnico pela MD Dermatologia Integrada desde 2012.</li>\n      </ul>",
+      "bio": "<ul><li>Médico graduado pela Universidade Federal do Rio Grande do Sul (UFRGS) em 1999.</li><li>Residência Médica em Dermatologia pelo Serviço de Dermatologia do Hospital de Clínicas de Porto Alegre (HCPA) em 2002.</li><li>Titular Especialista em Dermatologia pela Sociedade Brasileira de Dermatologia (SBD).</li><li>Membro da Sociedade Brasileira de Dermatologia (SBD).</li><li>Cientista de Dados e Inteligência Artificial pela Pontifícia Universidade Católica de Porto Alegre (PUCRS) em 2024, atualmente focando no desenvolvimento da Inteligência Artificial na área da saúde.</li><li>Responsável técnico pela MD Dermatologia Integrada desde 2012.</li></ul>",
       "foto": "assets/img/roberto.jpg"
     }
   ],
