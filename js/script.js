@@ -236,7 +236,7 @@ function createTeamCard(member, index) {
             <h3 class="text-xl font-bold text-gray-800 mb-2">${member.nome}</h3>
             <p class="text-primary-600 font-semibold mb-2">${member.especialidade}</p>
             <p class="text-sm text-gray-600 mb-3">${member.crm}</p>
-            <p class="text-gray-700 text-sm leading-relaxed">${member.bio}</p>
+            <div class="text-gray-700 text-sm leading-relaxed">${member.bio}</div> 
         </div>
     `;
 
