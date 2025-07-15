@@ -70,6 +70,7 @@ function initializeComponents() {
     initializeScrollEffects();
     initializeTeamSection();
     initializeClinicSection();
+    initializeConveniosSection();   
     initializeServicesSection();
     initializeAnimations();
     initializeAccessibility();
@@ -259,6 +260,24 @@ function initializeClinicSection() {
         galleryImages = siteConfig.clinica.galeria;
         initializeGallery();
     }
+}
+
+/** Inicializa a subseção de convênios */
+function initializeConveniosSection() {
+  const container = document.getElementById('convenios-container');
+  if (!container || !siteConfig.convenios) return;
+
+  container.innerHTML = ''; // limpa se já houver algo
+
+  siteConfig.convenios.forEach(conv => {
+    const btn = document.createElement('button');
+    btn.className =
+      'bg-primary-600 text-white px-4 py-2 rounded-full font-semibold ' +
+      'hover:bg-primary-700 transition-all duration-300 transform ' +
+      'hover:scale-105 shadow-lg';
+    btn.textContent = conv;
+    container.appendChild(btn);
+  });
 }
 
 /**
