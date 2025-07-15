@@ -74,6 +74,20 @@
       "assets/img/clinica 07.jpg"
     ]
   },
+
+  "convenios": [
+    "Unimed",
+    "IPE",
+    "Amil",
+    "Assefaz",
+    "Banco Central",
+    "Bradesco",
+    "Cabergs",
+    "Petrobras",
+    "Saude PAS",
+    "Sulamerica"
+  ],
+  
   "atuacao": {
     "estetica": {
       "titulo": "Dermatologia Estética",
