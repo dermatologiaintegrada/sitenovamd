@@ -224,20 +224,40 @@ function initializeTeamSection() {
  */
 function createTeamCard(member, index) {
     const card = document.createElement('div');
-    card.className = 'team-card bg-white rounded-lg shadow-lg overflow-hidden';
+    // Adicionado 'flex flex-col' para garantir que os cards tenham a mesma altura
+    card.className = 'team-card bg-white rounded-lg shadow-lg overflow-hidden flex flex-col';
     card.setAttribute('data-aos', 'fade-up');
     card.setAttribute('data-aos-delay', (index * 100).toString());
 
+    // --- LÓGICA DO BOTÃO ADICIONADA AQUI ---
+    // Verifica se o link do site profissional existe para o membro da equipe
+    let buttonHtml = '';
+    if (member.siteProfissional) {
+        buttonHtml = `
+            <div class="mt-auto pt-4 text-center">
+                <a href="${member.siteProfissional}"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn-custom inline-block text-sm px-5 py-2 rounded-full font-semibold shadow-md">
+                   Site profissional
+                </a>
+            </div>
+        `;
+    }
+
+    // Estrutura do card com espaço para o botão
     card.innerHTML = `
         <div class="relative overflow-hidden">
             <img src="${member.foto}" alt="${member.nome}" class="w-full object-cover">
             <div class="absolute inset-0 bg-primary-600 bg-opacity-0 hover:bg-opacity-20 transition-all duration-300"></div>
         </div>
-        <div class="p-6">
+        <div class="p-6 flex-grow flex flex-col">
             <h3 class="text-xl font-bold text-gray-800 mb-2">${member.nome}</h3>
             <p class="text-primary-600 font-semibold mb-2">${member.especialidade}</p>
             <p class="text-sm text-gray-600 mb-3">${member.crm}</p>
-            <div class="text-gray-700 text-sm leading-relaxed">${member.bio}</div> 
+            <div class="text-gray-700 text-sm leading-relaxed">${member.bio}</div>
+            
+            ${buttonHtml} 
         </div>
     `;
 
